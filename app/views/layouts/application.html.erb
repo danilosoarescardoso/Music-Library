@@ -1,14 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <title>MusicLibrary</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= content_for?(:title) ? yield(:title) : "Music Library" %></title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <%= stylesheet_link_tag    "application", :media => "all" %>
+    <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= yield(:head) %>
   </head>
-
   <body>
-    <%= yield %>
+    <header class="navbar navbar-fixed-top">
+      <nav class="navbar-inner">
+        <div class="container">
+                <nav class="navbar navbar-default estilo">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.php">Music Library</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href='index.html'>Home</a></li>             
+                <li><a href='#'>Adicionar Artista</a></li>
+                <li><a href='#'>Adicionar Disco </a></li>
+                <li><a href='#'>Adicionar Músicas</a></li>
+                <li><a href="#">Sobre</a></li>
+              </ul>
+              
+<!--
+              <ul class="nav navbar-nav navbar-right">
+              <li><a href='signup.php'>Criar conta</a></li>
+              <li><a href='login.php'>Aceder</a></li>
+
+                
+                <li class='dropdown admin'>
+                <a href='#' class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>Admin<span class='caret'></span></a>
+                <ul class='dropdown-menu'>
+                <li><a href='home.php'>Alertas</a></li>
+                <li><a href='perfil.php'>Perfil</a></li>
+                <li role='separator' class='divider'></li>
+                <li><a href='sair.php'>Sair</a></li>  
+                </ul>
+                </li>
+              </ul>
+  -->         
+            </div><!--/.nav-collapse -->
+          </div><!--/.container-fluid -->
+        </nav>
+          <%= render 'layouts/navigation' %>
+        </div>
+      </nav>
+    </header>
+    <div id="main" role="main">
+      <div class="container">
+        <div class="content">
+           <div class="row">
+            <div class="span12">
+              <%= render 'layouts/messages' %>
+              <%= yield %>
+            </div>
+          </div>
+
+          <footer class="footer">
+            
+            <div class="container">
+              <p class="text-muted">Criado por: <a href="#">Danilo Soares Cardoso </a> ® 2017</p>
+            </div>
+          </footer>
+        </div>
+      </div> <!--! end of .container -->
+    </div> <!--! end of #main -->
   </body>
 </html>
