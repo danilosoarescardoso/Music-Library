@@ -1,0 +1,36 @@
+<%= form_for :artist do |f| %>
+  <p>
+    <%= f.label :Artista %><br>
+    <%= f.text_field :artistName %>
+  </p>
+ 
+  <p>
+    <%= f.label :País %><br>
+    <%= f.text_field :country %>
+  </p>
+
+  <p>
+    <%= f.label :Gravadora %><br>
+    <%= f.text_field :label %>
+  </p>
+ 
+  <p>
+    <%= f.label :Ano_de_Criação %><br>
+
+    <%= select_year Date.today, :start_year => Time.now.year, :end_year => Time.now.year - 95, :field_name => :grad_year, :prefix => :profile  %>
+
+  </p>
+
+  <p>
+    <%= f.label :Principal_Gênero %><br>
+    <%= f.text_field :genre %>
+  </p>
+
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+
+
+
