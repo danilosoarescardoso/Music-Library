@@ -1,0 +1,20 @@
+
+<h1>Listing bands</h1>
+ 
+<table>
+  <tr>
+    <th>Band name</th>
+    <th>Created At</th>
+
+
+  </tr>
+ 
+  <% @artist.each do |artist| %>
+    <tr>
+      <td><%= artist.artistName %></td>
+      <td><%= artist.created_at %></td>
+
+      <td><%= link_to 'Show details', artist_path(artist) %></td>
+    </tr>
+  <% end %>
+</table>
