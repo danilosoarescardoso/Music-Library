@@ -17990,3 +17990,384 @@ Processing by ArtistsController#index as HTML
 Completed 200 OK in 57ms (Views: 54.4ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/artists" for 127.0.0.1 at 2017-05-17 23:35:46 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.3ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  Rendered artists/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 57ms (Views: 54.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/artists/new" for 127.0.0.1 at 2017-05-17 23:35:48 +0100
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (153.0ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 216ms (Views: 210.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/artists/index.html" for 127.0.0.1 at 2017-05-17 23:35:50 +0100
+Processing by ArtistsController#show as HTML
+  Parameters: {"id"=>"index"}
+  [1m[36mArtist Load (0.2ms)[0m  [1m[34mSELECT  "artists".* FROM "artists" WHERE "artists"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Artist with 'id'=index):
+  
+app/controllers/artists_controller.rb:8:in `show'
+Started GET "/artists/index.html" for 127.0.0.1 at 2017-05-17 23:36:37 +0100
+Processing by ArtistsController#show as HTML
+  Parameters: {"id"=>"index"}
+  [1m[36mArtist Load (0.2ms)[0m  [1m[34mSELECT  "artists".* FROM "artists" WHERE "artists"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Artist with 'id'=index):
+  
+app/controllers/artists_controller.rb:8:in `show'
+Started GET "/artists/index.html" for 127.0.0.1 at 2017-05-17 23:36:57 +0100
+Processing by ArtistsController#show as HTML
+  Parameters: {"id"=>"index"}
+  [1m[36mArtist Load (0.1ms)[0m  [1m[34mSELECT  "artists".* FROM "artists" WHERE "artists"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Artist with 'id'=index):
+  
+app/controllers/artists_controller.rb:8:in `show'
+Started GET "/artists/index.html" for 127.0.0.1 at 2017-05-17 23:37:52 +0100
+Processing by ArtistsController#show as HTML
+  Parameters: {"id"=>"index"}
+  [1m[36mArtist Load (0.2ms)[0m  [1m[34mSELECT  "artists".* FROM "artists" WHERE "artists"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 1ms (ActiveRecord: 0.2ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Artist with 'id'=index):
+  
+app/controllers/artists_controller.rb:8:in `show'
+Started GET "/artists/" for 127.0.0.1 at 2017-05-17 23:37:58 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  Rendered artists/index.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 89ms (Views: 86.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/artists/" for 127.0.0.1 at 2017-05-17 23:37:58 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  Rendered artists/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.1ms) [cache miss]
+Completed 200 OK in 79ms (Views: 75.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/artists/new" for 127.0.0.1 at 2017-05-17 23:38:01 +0100
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 63ms (Views: 59.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/artists" for 127.0.0.1 at 2017-05-17 23:38:02 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.5ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  Rendered artists/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 73ms (Views: 70.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/artists/new" for 127.0.0.1 at 2017-05-17 23:39:03 +0100
+Started GET "/artists" for 127.0.0.1 at 2017-05-17 23:39:03 +0100
+Processing by ArtistsController#new as HTML
+Processing by ArtistsController#index as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (3.7ms)
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  Rendered artists/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 425ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `articles_path' for #<#<Class:0x007fac8f69d7f8>:0x007fac945e4780>
+Did you mean?  artist_path
+               artists_path):
+    38:       ...
+    39:     <% end %>
+    40:      
+    41:     <%= link_to 'Back', articles_path %>          
+    42: <!--
+    43:               <ul class="nav navbar-nav navbar-right">
+    44:               <li><a href='signup.php'>Criar conta</a></li>
+  
+Completed 500 Internal Server Error in 829ms (ActiveRecord: 0.2ms)
+
+
+app/views/layouts/application.html.erb:41:in `_app_views_layouts_application_html_erb__462571487532569732_70189565906180'
+  
+ActionView::Template::Error (undefined local variable or method `articles_path' for #<#<Class:0x007fac8f69d7f8>:0x007fac90490540>
+Did you mean?  artist_path
+               artists_path):
+    38:       ...
+    39:     <% end %>
+    40:      
+    41:     <%= link_to 'Back', articles_path %>          
+    42: <!--
+    43:               <ul class="nav navbar-nav navbar-right">
+    44:               <li><a href='signup.php'>Criar conta</a></li>
+  
+app/views/layouts/application.html.erb:41:in `_app_views_layouts_application_html_erb__462571487532569732_70189565906180'
+Started GET "/artists" for 127.0.0.1 at 2017-05-17 23:39:10 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  Rendered artists/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"artists"}, missing required keys: [:id]):
+    34:                 <li><a href="#">About</a></li>
+    35:               </ul>
+    36:     
+    37:     <%= form_for :artist, url: artist_path do |f| %>
+    38:       ...
+    39:     <% end %>
+    40:      
+  
+app/views/layouts/application.html.erb:37:in `_app_views_layouts_application_html_erb__462571487532569732_70189605859440'
+Started GET "/artists" for 127.0.0.1 at 2017-05-17 23:39:26 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  Rendered artists/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.2ms) [cache miss]
+Completed 200 OK in 68ms (Views: 65.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/artists" for 127.0.0.1 at 2017-05-17 23:39:34 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  Rendered artists/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 74ms (Views: 71.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/artists/new" for 127.0.0.1 at 2017-05-17 23:39:37 +0100
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (5.8ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"artists"}, missing required keys: [:id]):
+    30:     <%= f.submit %>
+    31:   </p>
+    32: 
+    33:   <%= form_for :artist, url: artist_path do |f| %>
+    34:     ...
+    35:   <% end %>
+    36:    
+  
+app/views/artists/new.html.erb:33:in `block in _app_views_artists_new_html_erb___3921262149043550466_70189591372600'
+app/views/artists/new.html.erb:1:in `_app_views_artists_new_html_erb___3921262149043550466_70189591372600'
+Started GET "/artists/new" for 127.0.0.1 at 2017-05-17 23:39:53 +0100
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (8.2ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"artists"}, missing required keys: [:id]):
+    30:     <%= f.submit %>
+    31:   </p>
+    32: 
+    33:   <%= form_for :artist, url: artist_path do |f| %>
+    34:     ...
+    35:   <% end %>
+    36:    
+  
+app/views/artists/new.html.erb:33:in `block in _app_views_artists_new_html_erb___3921262149043550466_70189597545560'
+app/views/artists/new.html.erb:1:in `_app_views_artists_new_html_erb___3921262149043550466_70189597545560'
+Started GET "/artists/new" for 127.0.0.1 at 2017-05-17 23:39:57 +0100
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 60ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/artists/new" for 127.0.0.1 at 2017-05-17 23:40:28 +0100
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (333.0ms)
+Completed 500 Internal Server Error in 340ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `articles_path' for #<#<Class:0x007fac8f69d7f8>:0x007fac941cbcc0>
+Did you mean?  artist_path
+               artists_path):
+    34:       ...
+    35:     <% end %>
+    36:      
+    37:     <%= link_to 'Back', articles_path %>     
+    38: 
+    39: <% end %>
+  
+app/views/artists/new.html.erb:37:in `block in _app_views_artists_new_html_erb___3921262149043550466_70189598018380'
+app/views/artists/new.html.erb:1:in `_app_views_artists_new_html_erb___3921262149043550466_70189598018380'
+Started GET "/artists/new" for 127.0.0.1 at 2017-05-17 23:40:41 +0100
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 67ms (Views: 62.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/artists" for 127.0.0.1 at 2017-05-17 23:40:43 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  Rendered artists/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 67ms (Views: 63.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/artists/new" for 127.0.0.1 at 2017-05-17 23:40:45 +0100
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 62ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/artists/new" for 127.0.0.1 at 2017-05-17 23:41:03 +0100
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 63ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/artists/new" for 127.0.0.1 at 2017-05-17 23:41:10 +0100
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 65ms (Views: 62.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/artists/new" for 127.0.0.1 at 2017-05-17 23:41:17 +0100
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (153.5ms)
+Completed 500 Internal Server Error in 161ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `artists_path' for #<ActionView::Helpers::FormBuilder:0x007fac95110de8>):
+    28: 
+    29:   <p>
+    30:     <%= f.submit %>
+    31:     <%= link_to 'Back', f.artists_path %>     
+    32: 
+    33:   </p>
+    34: 
+  
+app/views/artists/new.html.erb:31:in `block in _app_views_artists_new_html_erb___3921262149043550466_70189601223060'
+app/views/artists/new.html.erb:1:in `_app_views_artists_new_html_erb___3921262149043550466_70189601223060'
+Started GET "/artists/new" for 127.0.0.1 at 2017-05-17 23:41:21 +0100
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 73ms (Views: 70.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/artists" for 127.0.0.1 at 2017-05-17 23:41:24 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  Rendered artists/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 57ms (Views: 52.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/artists" for 127.0.0.1 at 2017-05-18 01:00:25 +0100
+Started GET "/artists/new" for 127.0.0.1 at 2017-05-18 01:00:25 +0100
+Processing by ArtistsController#index as HTML
+Processing by ArtistsController#new as HTML
+  Rendering artists/index.html.erb within layouts/application
+  Rendering artists/new.html.erb within layouts/application
+  [1m[36mArtist Load (2.8ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  Rendered artists/new.html.erb within layouts/application (19.1ms)
+  Rendered artists/index.html.erb within layouts/application (37.2ms)
+  Rendered layouts/_navigation.html.erb (1.7ms) [cache miss]
+  Rendered layouts/_navigation.html.erb (0.0ms) [cache miss]
+  Rendered layouts/_messages.html.erb (3.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.1ms) [cache miss]
+Completed 200 OK in 599ms (Views: 576.6ms | ActiveRecord: 2.8ms)
+
+
+Completed 200 OK in 591ms (Views: 572.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/artists" for 127.0.0.1 at 2017-05-18 01:00:27 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.3ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  Rendered artists/index.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 97ms (Views: 93.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/artists" for 127.0.0.1 at 2017-05-18 01:00:30 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  Rendered artists/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 58ms (Views: 55.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/artists/new" for 127.0.0.1 at 2017-05-18 01:00:31 +0100
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 80ms (Views: 78.2ms | ActiveRecord: 0.0ms)
+
+

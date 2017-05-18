@@ -27,14 +27,14 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-              <%= link_to 'My Blog', controller: 'artists' %>
-                <li><a href='index.html'>Home</a></li>             
-                <li><a href='#'>Add Artist</a></li>
+                <li><%= link_to 'Home', controller: 'artists' %></li>             
+                <li><%= link_to 'Add Artist', new_artist_path %></li>
                 <li><a href='#'>Add Album </a></li>
                 <li><a href='#'>Add Songs</a></li>
                 <li><a href="#">About</a></li>
               </ul>
-              
+    
+     
 <!--
               <ul class="nav navbar-nav navbar-right">
               <li><a href='signup.php'>Criar conta</a></li>
