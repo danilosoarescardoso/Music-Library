@@ -18371,3 +18371,72 @@ Processing by ArtistsController#new as HTML
 Completed 200 OK in 80ms (Views: 78.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-05-18 18:58:58 +0100
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.6ms) [cache miss]
+Completed 200 OK in 1415ms (Views: 1402.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-20 23:46:44 +0100
+  [1m[35m (14.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.2ms) [cache miss]
+Completed 200 OK in 2010ms (Views: 1998.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/artists/new" for 127.0.0.1 at 2017-05-20 23:47:00 +0100
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (1821.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.1ms) [cache miss]
+Completed 200 OK in 3900ms (Views: 3696.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/artists" for 127.0.0.1 at 2017-05-20 23:47:08 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (31.0ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  Rendered artists/index.html.erb within layouts/application (147.9ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 412ms (Views: 259.3ms | ActiveRecord: 32.0ms)
+
+
+Started GET "/artists" for 127.0.0.1 at 2017-05-20 23:47:10 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  Rendered artists/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_navigation.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 430ms (Views: 425.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/artists/new" for 127.0.0.1 at 2017-05-20 23:47:12 +0100
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 154ms (Views: 151.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/artists/edit" for 127.0.0.1 at 2017-05-20 23:53:40 +0100
+Processing by ArtistsController#show as HTML
+  Parameters: {"id"=>"edit"}
+  [1m[36mArtist Load (18.0ms)[0m  [1m[34mSELECT  "artists".* FROM "artists" WHERE "artists"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 119ms (ActiveRecord: 19.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Artist with 'id'=edit):
+  
+app/controllers/artists_controller.rb:8:in `show'
