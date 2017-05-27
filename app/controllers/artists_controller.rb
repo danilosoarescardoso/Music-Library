@@ -22,6 +22,16 @@ class ArtistsController < ApplicationController
 		redirect_to @artist
 	end
 
+	def update
+	  @article = Artist.find(params[:id])
+	 
+	  if @aartist.update(article_params)
+	    redirect_to @artist
+	  else
+	    render 'edit'
+	  end
+	end
+
 	private
 	def artist_params
 		params.require(:artist).permit(:artistName, :country, :label, :genre)

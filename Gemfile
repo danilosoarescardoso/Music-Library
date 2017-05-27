@@ -20,6 +20,8 @@ gem 'uglifier', '>= 1.3.0'
 # Gem to the Bootstrap
 gem 'bootstrap-sass'
 
+gem 'mysql2'
+
 gem 'jquery-rails'
 
 # See https://github.com/rails/execjs#readme for more supported runtimes

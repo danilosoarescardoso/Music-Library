@@ -1,7 +1,7 @@
 
 <h1>Edit Artist</h1>
  
-<%= form_for(@aartist) do |f| %>
+<%= form_for(@artist) do |f| %>
  
   <% if @artist.errors.any? %>
     <div id="error_explanation">
@@ -25,6 +25,16 @@
   <p>
     <%= f.label :country %><br>
     <%= f.text_area :country %>
+  </p>
+
+  <p>
+    <%= f.label :label %><br>
+    <%= f.text_area :label %>
+  </p>
+
+  <p>
+    <%= f.label :genre %><br>
+    <%= f.text_area :genre %>
   </p>
  
   <p>
