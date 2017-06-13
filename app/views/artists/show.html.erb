@@ -20,4 +20,5 @@
 
 
 <%= link_to 'Edit', edit_artist_path(@artist) %> |
-<%= link_to 'Back', artist_path %>
+<%= link_to 'Delete', artist_path(@artist), method: :delete, data: {confirm: "Você tem certeza?"} %> |
+<%= link_to 'Back', artist_path(@artist) %>
