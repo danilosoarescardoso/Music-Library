@@ -24514,3 +24514,140 @@ Processing by ArtistsController#index as HTML
 Completed 200 OK in 71ms (Views: 68.1ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/artists" for 127.0.0.1 at 2017-06-13 20:26:32 +0100
+Started GET "/artists/new" for 127.0.0.1 at 2017-06-13 20:26:33 +0100
+Started GET "/artists" for 127.0.0.1 at 2017-06-13 20:26:33 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.5ms)[0m  [1m[34mSELECT `artists`.* FROM `artists` ORDER BY created_at DESC[0m
+  Rendered artists/index.html.erb within layouts/application (13.4ms)
+Completed 500 Internal Server Error in 4053ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"index", :controller=>"albums"}):
+    32:                 <li><a href='#'>Add Album </a></li>
+    33:                 <li><a href='#'>Add Songs</a></li>
+    34:                 <li><%= link_to 'List Artists', controller: 'artists' %></li>             
+    35:                 <li><%= link_to 'List Albums', controller: 'albums' %></li>             
+    36:                 <li><a href="#">About</a></li>
+    37:               </ul>
+    38:     
+  
+app/views/layouts/application.html.erb:35:in `_app_views_layouts_application_html_erb__4498350365622671496_70359803732220'
+Processing by ArtistsController#new as HTML
+Processing by ArtistsController#index as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (4.6ms)
+Completed 500 Internal Server Error in 100ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"index", :controller=>"albums"}):
+    32:                 <li><a href='#'>Add Album </a></li>
+    33:                 <li><a href='#'>Add Songs</a></li>
+    34:                 <li><%= link_to 'List Artists', controller: 'artists' %></li>             
+    35:                 <li><%= link_to 'List Albums', controller: 'albums' %></li>             
+    36:                 <li><a href="#">About</a></li>
+    37:               </ul>
+    38:     
+  
+app/views/layouts/application.html.erb:35:in `_app_views_layouts_application_html_erb__4498350365622671496_70359803732220'
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.5ms)[0m  [1m[34mSELECT `artists`.* FROM `artists` ORDER BY created_at DESC[0m
+Started GET "/" for 127.0.0.1 at 2017-06-13 20:26:39 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+  Rendered artists/index.html.erb within layouts/application (168.0ms)
+Completed 500 Internal Server Error in 826ms (ActiveRecord: 155.0ms)
+
+
+Completed 500 Internal Server Error in 124ms (ActiveRecord: 0.0ms)
+
+
+  
+  
+ActionView::Template::Error (No route matches {:action=>"index", :controller=>"albums"}):
+ActionView::Template::Error (No route matches {:action=>"index", :controller=>"albums"}):
+    32:                 <li><a href='#'>Add Album </a></li>
+    33:                 <li><a href='#'>Add Songs</a></li>
+    34:                 <li><%= link_to 'List Artists', controller: 'artists' %></li>             
+    35:                 <li><%= link_to 'List Albums', controller: 'albums' %></li>             
+    36:                 <li><a href="#">About</a></li>
+    37:               </ul>
+    38:     
+    32:                 <li><a href='#'>Add Album </a></li>
+    33:                 <li><a href='#'>Add Songs</a></li>
+    34:                 <li><%= link_to 'List Artists', controller: 'artists' %></li>             
+    35:                 <li><%= link_to 'List Albums', controller: 'albums' %></li>             
+    36:                 <li><a href="#">About</a></li>
+    37:               </ul>
+    38:     
+  
+  
+app/views/layouts/application.html.erb:35:in `_app_views_layouts_application_html_erb__4498350365622671496_70359803732220'
+app/views/layouts/application.html.erb:35:in `_app_views_layouts_application_html_erb__4498350365622671496_70359810862060'
+Started GET "/" for 127.0.0.1 at 2017-06-13 20:26:41 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 65ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"index", :controller=>"albums"}):
+    32:                 <li><a href='#'>Add Album </a></li>
+    33:                 <li><a href='#'>Add Songs</a></li>
+    34:                 <li><%= link_to 'List Artists', controller: 'artists' %></li>             
+    35:                 <li><%= link_to 'List Albums', controller: 'albums' %></li>             
+    36:                 <li><a href="#">About</a></li>
+    37:               </ul>
+    38:     
+  
+app/views/layouts/application.html.erb:35:in `_app_views_layouts_application_html_erb__4498350365622671496_70359788613580'
+Started GET "/" for 127.0.0.1 at 2017-06-13 20:27:14 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 102ms (Views: 97.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-06-13 20:27:19 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  Rendered albums/index.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    13: 
+    14:   </tr>
+    15:  </thead>
+    16:   <% @artist.each do |artist| %>
+    17:     <tr>
+    18:       <td><%= artist.artistName %></td>
+    19:       <td><%= artist.artistName %></td>
+  
+app/views/albums/index.html.erb:16:in `_app_views_albums_index_html_erb__2658834061158933725_70359795614060'
+Started GET "/albums" for 127.0.0.1 at 2017-06-13 20:27:49 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  Rendered albums/index.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    13: 
+    14:   </tr>
+    15:  </thead>
+    16:   <% @artist.each do |album| %>
+    17:     <tr>
+    18:       <td><%= album.artistName %></td>
+    19:       <td><%= album.artistName %></td>
+  
+app/views/albums/index.html.erb:16:in `_app_views_albums_index_html_erb__2658834061158933725_70359806045380'

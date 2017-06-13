@@ -1,0 +1,29 @@
+
+<h1>Listing Albums</h1>
+ 
+<table class="table table-hover ">
+<thead> 
+  <tr>
+
+    <th>Artist name</th>
+    <th>Album name</th>
+    <th>Created At</th>
+    <th>Actions</th>
+
+
+  </tr>
+ </thead>
+  <% @artist.each do |album| %>
+    <tr>
+      <td><%= album.artistName %></td>
+      <td><%= album.artistName %></td>
+      <td><%= album.created_at %></td>
+
+      <td><a><%= link_to 'Show details', artist_path(artist), :class => 'btn btn-info'%></a> 
+      <a><%= link_to 'Edit', edit_artist_path(artist), :class => 'btn btn-warning' %></a>
+      <a><%= link_to 'Delete', artist_path(artist), :class => 'btn btn-danger', method: :delete, data: {confirm: "Você tem certeza?"} %></a>
+</td>
+
+    </tr>
+  <% end %>
+</table>
