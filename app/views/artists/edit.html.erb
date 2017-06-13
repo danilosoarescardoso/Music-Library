@@ -1,4 +1,4 @@
-
+  
 <h1>Edit Artist</h1>
  
 <%= form_for(@artist) do |f| %>
@@ -18,22 +18,22 @@
   <% end %>
  
   <p>
-    <%= f.label :artistName %><br>
+    <%= f.label :Artist %><br>
     <%= f.text_field :artistName %>
   </p>
  
   <p>
-    <%= f.label :country %><br>
+    <%= f.label :Country %><br>
     <%= f.text_area :country %>
   </p>
 
   <p>
-    <%= f.label :label %><br>
+    <%= f.label :Label %><br>
     <%= f.text_area :label %>
   </p>
 
   <p>
-    <%= f.label :genre %><br>
+    <%= f.label :Genre %><br>
     <%= f.text_area :genre %>
   </p>
  
@@ -42,5 +42,8 @@
   </p>
  
 <% end %>
- 
-<%= link_to 'Back', artist_path %>
+
+<%= link_to 'Back', controller: 'artists' %>
+
+
+

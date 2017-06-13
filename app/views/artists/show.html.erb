@@ -1,8 +1,10 @@
-<p>
-  <strong>Artista: </strong>
-  <%= @artist.artistName %>
-</p>
+<div class="panel panel-default">
 
+<div class="panel-heading" >
+
+  <h1><strong><%= @artist.artistName %></strong></h1>
+</div>
+<div class="panel-body">
 <p>
   <strong>País: </strong>
   <%= @artist.country %>
@@ -21,4 +23,6 @@
 
 <%= link_to 'Edit', edit_artist_path(@artist) %> |
 <%= link_to 'Delete', artist_path(@artist), method: :delete, data: {confirm: "Você tem certeza?"} %> |
-<%= link_to 'Back', artist_path(@artist) %>
+<%= link_to 'Back', controller: 'artists' %>
+</div>
+</div>
