@@ -1,49 +1,50 @@
-  
-<h1>Edit Artist</h1>
- 
-<%= form_for(@artist) do |f| %>
- 
+<div class="form">  
+  <h1>Editing Artist</h1>
+
+  <%= form_for(@artist) do |f| %>
+
   <% if @artist.errors.any? %>
-    <div id="error_explanation">
-      <h2>
-        <%= pluralize(@artist.errors.count, "error") %> prohibited
-        this article from being saved:
-      </h2>
-      <ul>
-        <% @artist.errors.full_messages.each do |msg| %>
-          <li><%= msg %></li>
-        <% end %>
-      </ul>
-    </div>
+  <div id="error_explanation">
+    <h2>
+      <%= pluralize(@artist.errors.count, "error") %> prohibited this artist from being saved:
+    </h2>
+    <ul>
+      <% @artist.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+      <% end %>
+    </ul>
+  </div>
   <% end %>
- 
-  <p>
+
+  <div class="form-group">
     <%= f.label :Artist %><br>
-    <%= f.text_field :artistName %>
-  </p>
- 
-  <p>
+    <%= f.text_field :artistName, :class => 'form-control' %>
+  </div>
+
+  <div class="form-group">
     <%= f.label :Country %><br>
-    <%= f.text_area :country %>
-  </p>
+    <%= f.text_field :country, :class => 'form-control' %>
+  </div>
 
-  <p>
+  <div class="form-group">
     <%= f.label :Label %><br>
-    <%= f.text_area :label %>
-  </p>
+    <%= f.text_field :label, :class => 'form-control' %>
+  </div>
 
-  <p>
+  <!--<p>
+    <%= f.label :Ano_de_Criação %><br>
+    <%= select_year Date.today, :start_year => Time.now.year, :end_year => Time.now.year - 95, :field_name => :grad_year, :prefix => :profile %>
+
+  </p>-->
+  
+  <div class="form-group">
     <%= f.label :Genre %><br>
-    <%= f.text_area :genre %>
-  </p>
- 
-  <p>
-    <%= f.submit %>
-  </p>
- 
-<% end %>
+    <%= f.text_field :genre, :class => 'form-control' %>
+  </div>
 
-<%= link_to 'Back', controller: 'artists' %>
+  <p><%= f.submit :class => "btn btn-success btn-mini" %>
+    <%= link_to 'Back', artists_path, :class => "btn btn-warning btn-mini" %></p>
 
+    <% end %>
 
-
+  </div>
