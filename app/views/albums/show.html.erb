@@ -1,0 +1,24 @@
+<div class="panel panel-default">
+
+<div class="panel-heading" >
+
+  <h1><strong><%= @album.albumName %></strong></h1>
+</div>
+<div class="panel-body">
+
+<p>
+  <strong>Artist: </strong>
+  <%= @album.artistName %>
+</p>
+ 
+<p>
+  <strong>Year of Release: </strong>
+  <%= @album.albumYear %>
+</p>
+
+
+<%= link_to 'Edit', edit_album_path(@album) %> |
+<%= link_to 'Delete', album_path(@album), method: :delete, data: {confirm: "Você tem certeza?"} %> |
+<%= link_to 'Back', controller: 'albums' %>
+</div>
+</div>
