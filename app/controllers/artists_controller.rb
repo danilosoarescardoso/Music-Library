@@ -8,6 +8,9 @@ class ArtistsController < ApplicationController
 	end
 
 	def new
+		@all_artists = Artist.all
+
+
 	end
 
 	def edit

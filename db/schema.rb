@@ -16,8 +16,10 @@ ActiveRecord::Schema.define(version: 20170620200321) do
     t.string "artistName"
     t.string "albumName"
     t.string "albumYear"
+    t.bigint "artist_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["artist_id"], name: "index_albums_on_artist_id"
   end
 
   create_table "artists", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|

@@ -4,6 +4,7 @@ class CreateAlbums < ActiveRecord::Migration[5.1]
       t.string :artistName
       t.string :albumName
       t.string :albumYear
+      t.belongs_to :artist, index: true
 
       t.timestamps
     end
