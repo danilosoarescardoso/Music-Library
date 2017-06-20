@@ -10,20 +10,20 @@
     <th>Created At</th>
     <th>Actions</th>
 
-<!--
+
   </tr>
  </thead>
-  <% @artist.each do |album| %>
+  <% @album.each do |album| %>
     <tr>
       <td><%= album.artistName %></td>
-      <td><%= album.artistName %></td>
+      <td><%= album.albumName %></td>
       <td><%= album.created_at %></td>
 
-      <td><a><%= link_to 'Show details', artist_path(artist), :class => 'btn btn-info'%></a> 
-      <a><%= link_to 'Edit', edit_artist_path(artist), :class => 'btn btn-warning' %></a>
-      <a><%= link_to 'Delete', artist_path(artist), :class => 'btn btn-danger', method: :delete, data: {confirm: "Você tem certeza?"} %></a>
+      <td><a><%= link_to 'Show details', album_path(album), :class => 'btn btn-info'%></a> 
+      <a><%= link_to 'Edit', edit_album_path(album), :class => 'btn btn-warning' %></a>
+      <a><%= link_to 'Delete', album_path(album), :class => 'btn btn-danger', method: :delete, data: {confirm: "Você tem certeza?"} %></a>
 </td>
 
     </tr>
-  <% end %>-->  
+  <% end %> 
 </table>
