@@ -26928,3 +26928,194 @@ puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
 puma (3.8.2) lib/puma/server.rb:435:in `process_client'
 puma (3.8.2) lib/puma/server.rb:299:in `block in run'
 puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-06 23:26:49 +0100
+  
+Mysql2::Error (Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)):
+  
+mysql2 (0.4.6) lib/mysql2/client.rb:89:in `connect'
+mysql2 (0.4.6) lib/mysql2/client.rb:89:in `initialize'
+activerecord (5.1.1) lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `new'
+activerecord (5.1.1) lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `mysql2_connection'
+activerecord (5.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.1) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.1) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.1) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.1) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.1) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.1) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.1) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-06 23:30:11 +0100
+  [1m[35m (116.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (32.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.3ms) [cache miss]
+Completed 200 OK in 2212ms (Views: 2176.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-06 23:30:20 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (222.2ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 333ms (Views: 277.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2017-07-06 23:30:31 +0100
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5BJ4kRSWNcKiVYbEHOy2kLj08LjKDmYqeOjh3mcLNPQ61nA8M/2aZ/J5m1TVHkRYcCePHqaR9T7Kpy3yBJLPTA==", "album"=>{"artistName"=>"Testament", "albumName"=>"Self-titled", "albumYear"=>"2015"}, "commit"=>"Save Album"}
+  [1m[35m (19.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (85.3ms)[0m  [1m[32mINSERT INTO `albums` (`artistName`, `albumName`, `albumYear`, `created_at`, `updated_at`) VALUES ('Testament', 'Self-titled', '2015', '2017-07-06 22:30:31', '2017-07-06 22:30:31')[0m
+  [1m[35m (23.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/albums/2
+Completed 302 Found in 288ms (ActiveRecord: 211.2ms)
+
+
+Started GET "/albums/2" for 127.0.0.1 at 2017-07-06 23:30:31 +0100
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAlbum Load (30.3ms)[0m  [1m[34mSELECT  `albums`.* FROM `albums` WHERE `albums`.`id` = 2 LIMIT 1[0m
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 158ms (Views: 58.2ms | ActiveRecord: 30.3ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-06 23:30:35 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 75ms (Views: 66.9ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/albums/1" for 127.0.0.1 at 2017-07-06 23:30:38 +0100
+Processing by AlbumsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"5LpGvDBE93+w+qmN4mTSRk9gG10l2VkoSg45EebtPZmCbe54eH3IZrkwoKesq/jnjYC8AkNW/M0zmVrTju/pEg==", "id"=>"1"}
+  [1m[36mAlbum Load (0.5ms)[0m  [1m[34mSELECT  `albums`.* FROM `albums` WHERE `albums`.`id` = 1 LIMIT 1[0m
+  [1m[35m (1.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (252.5ms)[0m  [1m[31mDELETE FROM `albums` WHERE `albums`.`id` = 1[0m
+  [1m[35m (91.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 351ms (ActiveRecord: 345.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-06 23:30:38 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 86ms (Views: 82.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/artists" for 127.0.0.1 at 2017-07-06 23:30:41 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (38.6ms)[0m  [1m[34mSELECT `artists`.* FROM `artists` ORDER BY created_at DESC[0m
+  Rendered artists/index.html.erb within layouts/application (54.6ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 262ms (Views: 98.2ms | ActiveRecord: 40.2ms)
+
+
+Started DELETE "/artists/1" for 127.0.0.1 at 2017-07-06 23:30:44 +0100
+Processing by ArtistsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"FUssOasMTCzTkPSTxrpuddkgiYYxRg241st7f7aKWZNznIT94zVzNdpa/bmIdUTUG8Au2VfJqF2vXBi93oiNGA==", "id"=>"1"}
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT  `artists`.* FROM `artists` WHERE `artists`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM `artists` WHERE `artists`.`id` = 1[0m
+  [1m[35m (7.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 13ms (ActiveRecord: 8.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-06 23:30:44 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 72ms (Views: 68.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/artists/new" for 127.0.0.1 at 2017-07-06 23:30:45 +0100
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (22.2ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 112ms (Views: 83.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/artists" for 127.0.0.1 at 2017-07-06 23:31:07 +0100
+Processing by ArtistsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Jtg3HiOPvTFPr1VQ9Y+ZRjHkZL45+BjhXHbNWL22L0Y1F6hsoE/N6k0I4PMcVPhjLo+Z20GBXpJPd/sdvaOF8g==", "artist"=>{"artistName"=>"A banda mais bonita da Cidade", "country"=>"Brazil", "label"=>"Independente", "genre"=>"Indie"}, "commit"=>"Save Artist"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `artists` (`artistName`, `country`, `label`, `genre`, `created_at`, `updated_at`) VALUES ('A banda mais bonita da Cidade', 'Brazil', 'Independente', 'Indie', '2017-07-06 22:31:07', '2017-07-06 22:31:07')[0m
+  [1m[35m (14.9ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/artists/2
+Completed 302 Found in 21ms (ActiveRecord: 15.5ms)
+
+
+Started GET "/artists/2" for 127.0.0.1 at 2017-07-06 23:31:07 +0100
+Processing by ArtistsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT  `artists`.* FROM `artists` WHERE `artists`.`id` = 2 LIMIT 1[0m
+  Rendering artists/show.html.erb within layouts/application
+  Rendered artists/show.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 87ms (Views: 59.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/artists" for 127.0.0.1 at 2017-07-06 23:31:10 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.5ms)[0m  [1m[34mSELECT `artists`.* FROM `artists` ORDER BY created_at DESC[0m
+  Rendered artists/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 67ms (Views: 64.1ms | ActiveRecord: 0.5ms)
+
+
