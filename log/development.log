@@ -27276,3 +27276,94 @@ ActionView::Template::Error ({} is not a symbol nor a string):
   
 app/views/albums/new.html.erb:10:in `block in _app_views_albums_new_html_erb__4320091459698644832_70310928059940'
 app/views/albums/new.html.erb:3:in `_app_views_albums_new_html_erb__4320091459698644832_70310928059940'
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 02:06:33 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (10.5ms)
+Completed 500 Internal Server Error in 79ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::Artists):
+     7: 
+     8:  <div class="form-group">
+     9:     <%= f.label :Artist %><br>
+    10:     <%= collection_select( :artist, :artist_id, Artists.all, :artistName, {}, { :multiple => false}) %>
+    11:     <%= f.text_field :artistName, :class => 'form-control' %>
+    12:  </div>
+    13: 
+  
+app/views/albums/new.html.erb:10:in `block in _app_views_albums_new_html_erb__4320091459698644832_70310928490280'
+app/views/albums/new.html.erb:3:in `_app_views_albums_new_html_erb__4320091459698644832_70310928490280'
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 02:06:42 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (1.3ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (9.6ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 1.3ms)
+
+
+  
+ActionView::Template::Error ({} is not a symbol nor a string):
+     7: 
+     8:  <div class="form-group">
+     9:     <%= f.label :Artist %><br>
+    10:     <%= collection_select( :artist, :artist_id, Artist.all, :artistName, {}, { :multiple => false}) %>
+    11:     <%= f.text_field :artistName, :class => 'form-control' %>
+    12:  </div>
+    13: 
+  
+app/views/albums/new.html.erb:10:in `block in _app_views_albums_new_html_erb__4320091459698644832_70310931822260'
+app/views/albums/new.html.erb:3:in `_app_views_albums_new_html_erb__4320091459698644832_70310931822260'
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 02:07:43 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 4, expected 5..7)):
+     7: 
+     8:  <div class="form-group">
+     9:     <%= f.label :Artist %><br>
+    10:     <%= collection_select( :artist, :artist_id, Artist.all, :artistName) %>
+    11:     <%= f.text_field :artistName, :class => 'form-control' %>
+    12:  </div>
+    13: 
+  
+app/views/albums/new.html.erb:10:in `block in _app_views_albums_new_html_erb__4320091459698644832_70310938643880'
+app/views/albums/new.html.erb:3:in `_app_views_albums_new_html_erb__4320091459698644832_70310938643880'
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 02:08:08 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.1ms) [cache miss]
+Completed 200 OK in 458ms (Views: 455.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 02:08:34 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (21.8ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/danilosoares/Developer/Ruby/music_library/app/views/albums/new.html.erb:10: syntax error, unexpected ',', expecting ')'
+Artist.all, :id, :artistName), :class => 'form-control' );@o
+                              ^):
+  
+app/views/albums/new.html.erb:10: syntax error, unexpected ',', expecting ')'
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 02:08:49 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.3ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 60ms (Views: 57.2ms | ActiveRecord: 0.3ms)
+
+
