@@ -28894,3 +28894,219 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 60ms (Views: 57.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/artists" for 127.0.0.1 at 2017-07-07 04:00:28 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT `artists`.* FROM `artists` ORDER BY created_at DESC[0m
+  Rendered artists/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.4ms) [cache miss]
+Completed 200 OK in 181ms (Views: 178.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 04:00:29 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 80ms (Views: 66.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums/1" for 127.0.0.1 at 2017-07-07 04:00:31 +0100
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT  `albums`.* FROM `albums` WHERE `albums`.`id` = 1 LIMIT 1[0m
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 73ms (Views: 69.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 04:00:36 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 61ms (Views: 58.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums/1" for 127.0.0.1 at 2017-07-07 04:00:51 +0100
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAlbum Load (0.5ms)[0m  [1m[34mSELECT  `albums`.* FROM `albums` WHERE `albums`.`id` = 1 LIMIT 1[0m
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 64ms (Views: 59.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 04:00:54 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 69ms (Views: 65.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 04:00:55 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 59ms (Views: 56.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 04:00:57 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 71ms (Views: 68.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums/1" for 127.0.0.1 at 2017-07-07 04:00:59 +0100
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAlbum Load (0.5ms)[0m  [1m[34mSELECT  `albums`.* FROM `albums` WHERE `albums`.`id` = 1 LIMIT 1[0m
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 63ms (Views: 59.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 04:02:11 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (2.4ms)
+Started GET "/artists/2/edit" for 127.0.0.1 at 2017-07-07 04:02:11 +0100
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 04:02:11 +0100
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+Processing by ArtistsController#edit as HTML
+Processing by AlbumsController#new as HTML
+  Parameters: {"id"=>"2"}
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 68ms (Views: 65.0ms | ActiveRecord: 0.4ms)
+
+
+  [1m[36mArtist Load (1.2ms)[0m  [1m[34mSELECT  `artists`.* FROM `artists` WHERE `artists`.`id` = 2 LIMIT 1[0m
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (5.9ms)
+  Rendering artists/edit.html.erb within layouts/application
+  Rendered artists/edit.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_navigation.html.erb (0.0ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.1ms) [cache miss]
+Completed 200 OK in 289ms (Views: 245.9ms | ActiveRecord: 1.2ms)
+
+
+Completed 200 OK in 293ms (Views: 270.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 04:02:20 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.3ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 62ms (Views: 59.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2017-07-07 04:02:25 +0100
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N5wdTXPCipwDYSGQgeD7s3flvnKH0WoQRvGNOpJiwe/pWBXgVKklOVNNPABIEgl7vzbB1OtO+QT0vkEW8fs6Vw==", "artist"=>{"artist_id"=>"1"}, "album"=>{"albumName"=>"teste", "albumYear"=>"1995"}, "commit"=>"Save Album"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `albums` (`albumName`, `albumYear`, `created_at`, `updated_at`) VALUES ('teste', '1995', '2017-07-07 03:02:25', '2017-07-07 03:02:25')[0m
+  [1m[35m (37.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/albums/4
+Completed 302 Found in 42ms (ActiveRecord: 38.0ms)
+
+
+Started GET "/albums/4" for 127.0.0.1 at 2017-07-07 04:02:25 +0100
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT  `albums`.* FROM `albums` WHERE `albums`.`id` = 4 LIMIT 1[0m
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 58ms (Views: 54.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 04:02:28 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 63ms (Views: 60.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums/4" for 127.0.0.1 at 2017-07-07 04:02:30 +0100
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mAlbum Load (0.6ms)[0m  [1m[34mSELECT  `albums`.* FROM `albums` WHERE `albums`.`id` = 4 LIMIT 1[0m
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 81ms (Views: 76.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 04:02:32 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 63ms (Views: 60.0ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/albums/1" for 127.0.0.1 at 2017-07-07 04:02:38 +0100
+Processing by AlbumsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"zSN/tKdes1Llr/bycwSXTQLsHrlAIPTWEpjYzCnEHomr9Ndw72eMS+xl/9g9y73swAy55iavUTNrD7sOQcbKAg==", "id"=>"1"}
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT  `albums`.* FROM `albums` WHERE `albums`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM `albums` WHERE `albums`.`id` = 1[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-07 04:02:38 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 56ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 04:02:49 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 67ms (Views: 63.8ms | ActiveRecord: 0.4ms)
+
+
