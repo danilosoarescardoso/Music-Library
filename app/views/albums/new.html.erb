@@ -7,6 +7,7 @@
 
  <div class="form-group">
     <%= f.label :Artist %><br>
+    <%= collection_select( :artist, :artist_id, Artist.all, :artistName, {}, { :multiple => false}) %>
     <%= f.text_field :artistName, :class => 'form-control' %>
  </div>
 

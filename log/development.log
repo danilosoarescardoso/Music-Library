@@ -27119,3 +27119,160 @@ Processing by ArtistsController#index as HTML
 Completed 200 OK in 67ms (Views: 64.1ms | ActiveRecord: 0.5ms)
 
 
+Started GET "/artists" for 127.0.0.1 at 2017-07-07 01:34:29 +0100
+  [1m[35m (0.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (1.1ms)[0m  [1m[34mSELECT `artists`.* FROM `artists` ORDER BY created_at DESC[0m
+  Rendered artists/index.html.erb within layouts/application (136.9ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.3ms) [cache miss]
+Completed 200 OK in 3301ms (Views: 3208.5ms | ActiveRecord: 17.4ms)
+
+
+Started GET "/artists/new" for 127.0.0.1 at 2017-07-07 01:34:38 +0100
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (331.2ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 415ms (Views: 388.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 01:34:45 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (67.8ms)
+Completed 500 Internal Server Error in 108ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `all' for :Artists:Symbol):
+     7: 
+     8:  <div class="form-group">
+     9:     <%= f.label :Artist %><br>
+    10:     <%= collection_select( :artists, :artist_id, :Artists.all, :artistName, {}, { :multiple => false}) %>
+    11:     <%= f.text_field :artistName, :class => 'form-control' %>
+    12:  </div>
+    13: 
+  
+app/views/albums/new.html.erb:10:in `block in _app_views_albums_new_html_erb__4320091459698644832_70310933177000'
+app/views/albums/new.html.erb:3:in `_app_views_albums_new_html_erb__4320091459698644832_70310933177000'
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 01:35:28 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `all' for :Artist:Symbol):
+     7: 
+     8:  <div class="form-group">
+     9:     <%= f.label :Artist %><br>
+    10:     <%= collection_select( :artists, :artist_id, :Artist.all, :artistName, {}, { :multiple => false}) %>
+    11:     <%= f.text_field :artistName, :class => 'form-control' %>
+    12:  </div>
+    13: 
+  
+app/views/albums/new.html.erb:10:in `block in _app_views_albums_new_html_erb__4320091459698644832_70310885439080'
+app/views/albums/new.html.erb:3:in `_app_views_albums_new_html_erb__4320091459698644832_70310885439080'
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 01:35:59 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `all' for :Artist:Symbol):
+     7: 
+     8:  <div class="form-group">
+     9:     <%= f.label :Artist %><br>
+    10:     <%= collection_select( :artist, :artist_id, :Artist.all, :artistName, {}, { :multiple => false}) %>
+    11:     <%= f.text_field :artistName, :class => 'form-control' %>
+    12:  </div>
+    13: 
+  
+app/views/albums/new.html.erb:10:in `block in _app_views_albums_new_html_erb__4320091459698644832_70310939084120'
+app/views/albums/new.html.erb:3:in `_app_views_albums_new_html_erb__4320091459698644832_70310939084120'
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 01:37:18 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.6ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (22.7ms)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error ({} is not a symbol nor a string):
+     7: 
+     8:  <div class="form-group">
+     9:     <%= f.label :Artist %><br>
+    10:     <%= collection_select( :artist, :artist_id, Artist.all, :artistName, {}, { :multiple => false}) %>
+    11:     <%= f.text_field :artistName, :class => 'form-control' %>
+    12:  </div>
+    13: 
+  
+app/views/albums/new.html.erb:10:in `block in _app_views_albums_new_html_erb__4320091459698644832_70310928551500'
+app/views/albums/new.html.erb:3:in `_app_views_albums_new_html_erb__4320091459698644832_70310928551500'
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 01:37:27 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.7ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (5.9ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error ({:multiple=>false} is not a symbol nor a string):
+     7: 
+     8:  <div class="form-group">
+     9:     <%= f.label :Artist %><br>
+    10:     <%= collection_select( :artist, :artist_id, Artist.all, :artistName, { :multiple => false}) %>
+    11:     <%= f.text_field :artistName, :class => 'form-control' %>
+    12:  </div>
+    13: 
+  
+app/views/albums/new.html.erb:10:in `block in _app_views_albums_new_html_erb__4320091459698644832_70310927666920'
+app/views/albums/new.html.erb:3:in `_app_views_albums_new_html_erb__4320091459698644832_70310927666920'
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 01:37:40 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 4, expected 5..7)):
+     7: 
+     8:  <div class="form-group">
+     9:     <%= f.label :Artist %><br>
+    10:     <%= collection_select( :artist, :artist_id, Artist.all, :artistName) %>
+    11:     <%= f.text_field :artistName, :class => 'form-control' %>
+    12:  </div>
+    13: 
+  
+app/views/albums/new.html.erb:10:in `block in _app_views_albums_new_html_erb__4320091459698644832_70310885260180'
+app/views/albums/new.html.erb:3:in `_app_views_albums_new_html_erb__4320091459698644832_70310885260180'
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 01:37:57 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error ({} is not a symbol nor a string):
+     7: 
+     8:  <div class="form-group">
+     9:     <%= f.label :Artist %><br>
+    10:     <%= collection_select( :artist, :artist_id, Artist.all, :artistName, {}, { :multiple => false}) %>
+    11:     <%= f.text_field :artistName, :class => 'form-control' %>
+    12:  </div>
+    13: 
+  
+app/views/albums/new.html.erb:10:in `block in _app_views_albums_new_html_erb__4320091459698644832_70310928059940'
+app/views/albums/new.html.erb:3:in `_app_views_albums_new_html_erb__4320091459698644832_70310928059940'
