@@ -27367,3 +27367,1530 @@ Processing by AlbumsController#new as HTML
 Completed 200 OK in 60ms (Views: 57.2ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 02:17:18 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.6ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 365ms (Views: 362.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 02:17:25 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.8ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 64ms (Views: 61.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 02:17:46 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 66ms (Views: 63.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 02:17:55 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 69ms (Views: 66.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2017-07-07 02:24:13 +0100
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"csvWhO1lkG7yZsr7qOUR7/84uRWF5u67JsFx0ymkAigUHH5ApVyvd/usw9HmKjtOPdgeSuNpS15fVhIRQabWow==", "artist"=>{"artist_id"=>"2"}, "album"=>{"albumName"=>"Teste", "albumYear"=>"1991"}, "commit"=>"Save Album"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Redirected to http://localhost:3000/albums
+Completed 302 Found in 508ms (ActiveRecord: 49.9ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 02:24:14 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.7ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.3ms) [cache miss]
+Completed 200 OK in 326ms (Views: 276.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 02:24:21 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.3ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (14.7ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 97ms (Views: 67.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 02:24:26 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 62ms (Views: 58.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 02:24:28 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.5ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 69ms (Views: 66.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 02:24:48 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (49.7ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 189ms (Views: 160.5ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/artists/new" for 127.0.0.1 at 2017-07-07 02:24:52 +0100
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 323ms (Views: 234.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/artists" for 127.0.0.1 at 2017-07-07 02:25:19 +0100
+Processing by ArtistsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3WdAzhExr7d6dS2xR/O0JNDVZyR1+hFWc2bW4/Bw4MHOqN+8kvHfbHjSmBKuKNUBz76aQQ2DVyVgZ+Cm8GVKdQ==", "artist"=>{"artistName"=>"Metallica ", "country"=>"EUA", "label"=>"Independente", "genre"=>"Heavy Metal"}, "commit"=>"Save Artist"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO `artists` (`artistName`, `country`, `label`, `genre`, `created_at`, `updated_at`) VALUES ('Metallica ', 'EUA', 'Independente', 'Heavy Metal', '2017-07-07 01:25:19', '2017-07-07 01:25:19')[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/artists/3
+Completed 302 Found in 7ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/artists/3" for 127.0.0.1 at 2017-07-07 02:25:19 +0100
+Processing by ArtistsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mArtist Load (0.7ms)[0m  [1m[34mSELECT  `artists`.* FROM `artists` WHERE `artists`.`id` = 3 LIMIT 1[0m
+  Rendering artists/show.html.erb within layouts/application
+  Rendered artists/show.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.3ms) [cache miss]
+Completed 200 OK in 205ms (Views: 128.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/artists" for 127.0.0.1 at 2017-07-07 02:26:33 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.6ms)[0m  [1m[34mSELECT `artists`.* FROM `artists` ORDER BY created_at DESC[0m
+  Rendered artists/index.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.3ms) [cache miss]
+Completed 200 OK in 208ms (Views: 180.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 02:26:36 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 89ms (Views: 58.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2017-07-07 02:26:55 +0100
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"X14ztqGsrUCIN1+WI6R0AhsCO8E0l5KafpNTAo2haZ+BmjsbhscC5dgbQgbqVobK09FEZ1gIAY7M3J8u7jiSJw==", "artist"=>{"artist_id"=>"3"}, "album"=>{"albumName"=>"Hardwided to Self Destructed", "albumYear"=>"2016"}, "commit"=>"Save Album"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Redirected to http://localhost:3000/albums
+Completed 302 Found in 38ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 02:26:55 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 89ms (Views: 55.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 02:26:57 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.3ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 75ms (Views: 70.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/artists/new" for 127.0.0.1 at 2017-07-07 02:28:29 +0100
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 02:28:29 +0100
+Processing by ArtistsController#new as HTML
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (3.6ms)
+  [1m[36mArtist Load (2.3ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (86.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_navigation.html.erb (0.1ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.1ms) [cache miss]
+Completed 200 OK in 722ms (Views: 592.9ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 635ms (Views: 538.6ms | ActiveRecord: 69.5ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2017-07-07 02:28:37 +0100
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FThTEJXPthSch3eexEB9Pv2ZSk4FLlBPiJ9KDdNDVVhz7/vU3faJDZVNfrSKj1efP3ntEWOh9arxCCnPu0GB0w==", "artist"=>{"artist_id"=>"3"}, "album"=>{"albumName"=>"Hardwided to Self Destructed", "albumYear"=>"2016"}, "commit"=>"Save Album"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Redirected to http://localhost:3000/albums
+Completed 302 Found in 48ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 02:28:37 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 88ms (Views: 56.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 02:28:39 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.7ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 97ms (Views: 93.4ms | ActiveRecord: 0.7ms)
+
+
+  [1m[35m (1.1ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (27.0ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (784.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS `MusicLibrary_development`[0m
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (23.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS `MusicLibrary_test`[0m
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (164.1ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY) ENGINE=InnoDB[0m
+  [1m[35m (270.2ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+  [1m[35m (46.7ms)[0m  [1m[34mSELECT GET_LOCK(720801320270125080, 0)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateArtists (20170517104328)
+  [1m[35m (114.3ms)[0m  [1m[35mCREATE TABLE `artists` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `artistName` varchar(255), `country` varchar(255), `label` varchar(255), `genre` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20170517104328')[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateAlbums (20170620200321)
+  [1m[35m (112.1ms)[0m  [1m[35mCREATE TABLE `albums` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `artistName` varchar(255), `albumName` varchar(255), `albumYear` varchar(255), `artist_id` bigint, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL,  INDEX `index_albums_on_artist_id`  (`artist_id`)) ENGINE=InnoDB[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20170620200321')[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2017-07-07 01:30:12', '2017-07-07 01:30:12')[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK(720801320270125080)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (28.2ms)[0m  [1m[35mSHOW CREATE TABLE `albums`[0m
+  [1m[35m (1.0ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'albums'[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSHOW CREATE TABLE `artists`[0m
+  [1m[35m (0.8ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'artists'[0m
+Started GET "/artists/new" for 127.0.0.1 at 2017-07-07 02:30:27 +0100
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 02:30:27 +0100
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by ArtistsController#new as HTML
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.7ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendering artists/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (556.9ms)
+  Rendered artists/new.html.erb within layouts/application (51.6ms)
+Completed 500 Internal Server Error in 2763ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (can't add a new key into hash during iteration):
+     6:     <title><%= content_for?(:title) ? yield(:title) : "Music Library" %></title>
+     7:     <meta name="description" content="">
+     8:     <meta name="author" content="">
+     9:     <%= stylesheet_link_tag    "application", :media => "all" %>
+    10:     <%= javascript_include_tag "application" %>
+    11:     <%= csrf_meta_tags %>
+    12:     <%= yield(:head) %>
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___3775261597571501645_70128964339680'
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.4ms) [cache miss]
+Completed 200 OK in 3485ms (Views: 3443.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/artists/new" for 127.0.0.1 at 2017-07-07 02:30:35 +0100
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_navigation.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.1ms) [cache miss]
+Completed 200 OK in 77ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/artists" for 127.0.0.1 at 2017-07-07 02:30:49 +0100
+Processing by ArtistsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vJFVpAgTn5lYEkwd6Azzw2J7KEIc/jhZX8kx6i5/l8SvXsrWi9PvQlq1+b4B15LmfRDVJ2SHfipMyAevLmo9cA==", "artist"=>{"artistName"=>"Metallica", "country"=>"EUA", "label"=>"Independente", "genre"=>"Heavy Metal"}, "commit"=>"Save Artist"}
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `artists` (`artistName`, `country`, `label`, `genre`, `created_at`, `updated_at`) VALUES ('Metallica', 'EUA', 'Independente', 'Heavy Metal', '2017-07-07 01:30:49', '2017-07-07 01:30:49')[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/artists/1
+Completed 302 Found in 30ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/artists/1" for 127.0.0.1 at 2017-07-07 02:30:49 +0100
+Processing by ArtistsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArtist Load (1.1ms)[0m  [1m[34mSELECT  `artists`.* FROM `artists` WHERE `artists`.`id` = 1 LIMIT 1[0m
+  Rendering artists/show.html.erb within layouts/application
+  Rendered artists/show.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.9ms) [cache miss]
+Completed 200 OK in 199ms (Views: 142.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 02:30:52 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 150ms (Views: 74.9ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2017-07-07 02:30:57 +0100
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ylSkM+Y0kFxqiy6jIfRt2CcyQbMNshG1N6nzXNgrPDwUkKyewV8/+TqnMzPoBp8Q7+E+FWEtgqGF5j9wu7LHhA==", "artist"=>{"artist_id"=>"1"}, "album"=>{"albumName"=>"Hardwided to Self Destructed", "albumYear"=>"2016"}, "commit"=>"Save Album"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Redirected to http://localhost:3000/albums
+Completed 302 Found in 99ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 02:30:57 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.5ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 75ms (Views: 55.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 02:31:01 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.5ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 60ms (Views: 57.8ms | ActiveRecord: 0.5ms)
+
+
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (100.3ms)[0m  [1m[35mDROP DATABASE IF EXISTS `MusicLibrary_development`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (12.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS `MusicLibrary_test`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (106.4ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY) ENGINE=InnoDB[0m
+  [1m[35m (494.0ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT GET_LOCK(720801320270125080, 0)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateArtists (20170517104328)
+  [1m[35m (107.6ms)[0m  [1m[35mCREATE TABLE `artists` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `artistName` varchar(255), `country` varchar(255), `label` varchar(255), `genre` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20170517104328')[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateAlbums (20170620200321)
+  [1m[35m (124.6ms)[0m  [1m[35mCREATE TABLE `albums` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `artistName` varchar(255), `albumName` varchar(255), `albumYear` varchar(255), `artist_id` bigint, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL,  INDEX `index_albums_on_artist_id`  (`artist_id`)) ENGINE=InnoDB[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20170620200321')[0m
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2017-07-07 01:33:10', '2017-07-07 01:33:10')[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK(720801320270125080)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `albums`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'albums'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `artists`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'artists'[0m
+Started GET "/artists" for 127.0.0.1 at 2017-07-07 02:39:34 +0100
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT `artists`.* FROM `artists` ORDER BY created_at DESC[0m
+  Rendered artists/index.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.2ms) [cache miss]
+Completed 200 OK in 2267ms (Views: 2068.7ms | ActiveRecord: 1.0ms)
+
+
+  [1m[35m (1.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (102.1ms)[0m  [1m[35mDROP DATABASE IF EXISTS `MusicLibrary_development`[0m
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.5ms)[0m  [1m[35mDROP DATABASE IF EXISTS `MusicLibrary_test`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (60.6ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY) ENGINE=InnoDB[0m
+  [1m[35m (340.2ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT GET_LOCK(720801320270125080, 0)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateArtists (20170517104328)
+  [1m[35m (256.2ms)[0m  [1m[35mCREATE TABLE `artists` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `artistName` varchar(255), `country` varchar(255), `label` varchar(255), `genre` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20170517104328')[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateAlbums (20170620200321)
+  [1m[35m (210.1ms)[0m  [1m[35mCREATE TABLE `albums` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `artistName` varchar(255), `albumName` varchar(255), `albumYear` varchar(255), `artist_id` bigint, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL,  INDEX `index_albums_on_artist_id`  (`artist_id`)) ENGINE=InnoDB[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20170620200321')[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddAlbumidColum (20170707015823)
+  [1m[35m (26.3ms)[0m  [1m[35mALTER TABLE `album` ADD `artist_id` bigint[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT RELEASE_LOCK(720801320270125080)[0m
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (1.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2017-07-07 02:02:12', '2017-07-07 02:02:12')[0m
+  [1m[35m (283.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (66.7ms)[0m  [1m[35mDROP DATABASE IF EXISTS `MusicLibrary_development`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS `MusicLibrary_test`[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (56.0ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY) ENGINE=InnoDB[0m
+  [1m[35m (248.0ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT GET_LOCK(720801320270125080, 0)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateArtists (20170517104328)
+  [1m[35m (113.1ms)[0m  [1m[35mCREATE TABLE `artists` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `artistName` varchar(255), `country` varchar(255), `label` varchar(255), `genre` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20170517104328')[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateAlbums (20170620200321)
+  [1m[35m (210.0ms)[0m  [1m[35mCREATE TABLE `albums` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `artistName` varchar(255), `albumName` varchar(255), `albumYear` varchar(255), `artist_id` bigint, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL,  INDEX `index_albums_on_artist_id`  (`artist_id`)) ENGINE=InnoDB[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20170620200321')[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddAlbumidColum (20170707015823)
+  [1m[35m (19.3ms)[0m  [1m[35mALTER TABLE `albums` ADD `artist_id` bigint[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT RELEASE_LOCK(720801320270125080)[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK(720801320270125080, 0)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2017-07-07 02:03:36', '2017-07-07 02:03:36')[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK(720801320270125080)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `albums`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'albums'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `artists`[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'artists'[0m
+Started GET "/artists/new" for 127.0.0.1 at 2017-07-07 03:04:07 +0100
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (231.0ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.5ms) [cache miss]
+Completed 200 OK in 1568ms (Views: 1493.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/artists" for 127.0.0.1 at 2017-07-07 03:04:25 +0100
+Processing by ArtistsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y7gnRii1cuqgl4iEtQgBzaMmHei5K7mjPlrzoxz67nXYd7g0q3UCMaIwPSdc02DovE3gjcFS/9AtW8XmHO9EwQ==", "artist"=>{"artistName"=>"Rasta Chinela", "country"=>"Teste", "label"=>"Teste", "genre"=>"Teste"}, "commit"=>"Save Artist"}
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `artists` (`artistName`, `country`, `label`, `genre`, `created_at`, `updated_at`) VALUES ('Rasta Chinela', 'Teste', 'Teste', 'Teste', '2017-07-07 02:04:25', '2017-07-07 02:04:25')[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/artists/1
+Completed 302 Found in 19ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/artists/1" for 127.0.0.1 at 2017-07-07 03:04:25 +0100
+Processing by ArtistsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArtist Load (0.6ms)[0m  [1m[34mSELECT  `artists`.* FROM `artists` WHERE `artists`.`id` = 1 LIMIT 1[0m
+  Rendering artists/show.html.erb within layouts/application
+  Rendered artists/show.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 118ms (Views: 59.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 03:04:27 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.6ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 169ms (Views: 60.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/artists" for 127.0.0.1 at 2017-07-07 03:04:28 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT `artists`.* FROM `artists` ORDER BY created_at DESC[0m
+  Rendered artists/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 124ms (Views: 74.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 03:04:30 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (22.7ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 127ms (Views: 98.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2017-07-07 03:04:41 +0100
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"93Ff30d2daBcGVki1K7LnKL79xIvPL0EBm2otKtHcPwptVdyYB3aBQw1RLIdXDlUaiiItEOjLhC0ImSYyN6LRA==", "artist"=>{"artist_id"=>"1"}, "album"=>{"albumName"=>"teste", "albumYear"=>"1991"}, "commit"=>"Save Album"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Redirected to http://localhost:3000/albums
+Completed 302 Found in 55ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 03:04:41 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.3ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 66ms (Views: 62.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 03:04:45 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 62ms (Views: 58.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 03:05:30 +0100
+Processing by AlbumsController#new as HTML
+Started GET "/artists/new" for 127.0.0.1 at 2017-07-07 03:05:30 +0100
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (51.2ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 135ms (Views: 129.9ms | ActiveRecord: 1.4ms)
+
+
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (8.2ms)
+  Rendered layouts/_navigation.html.erb (0.0ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.1ms) [cache miss]
+Completed 200 OK in 297ms (Views: 258.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2017-07-07 03:05:36 +0100
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"B7NQykpJf3fmrHWmHanvRv6aDfkHIuHFamyB3rWya+NhZPgOAnBAbu9mfIxTZsXnPHqqpmGtRCAT++Ic3bC/aA==", "artist"=>{"artist_id"=>"1"}, "album"=>{"albumName"=>"teste", "albumYear"=>"1991"}, "commit"=>"Save Album"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Redirected to http://localhost:3000/albums
+Completed 302 Found in 61ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 03:05:36 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 63ms (Views: 60.1ms | ActiveRecord: 0.4ms)
+
+
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (101.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS `MusicLibrary_development`[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS `MusicLibrary_test`[0m
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (244.8ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY) ENGINE=InnoDB[0m
+  [1m[35m (403.1ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK(720801320270125080, 0)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateArtists (20170517104328)
+  [1m[35m (280.2ms)[0m  [1m[35mCREATE TABLE `artists` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `artistName` varchar(255), `country` varchar(255), `label` varchar(255), `genre` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20170517104328')[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateAlbums (20170620200321)
+  [1m[35m (58.2ms)[0m  [1m[35mCREATE TABLE `albums` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `artistName` varchar(255), `albumName` varchar(255), `albumYear` varchar(255), `artist_id` bigint, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL,  INDEX `index_albums_on_artist_id`  (`artist_id`)) ENGINE=InnoDB[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20170620200321')[0m
+  [1m[35m (235.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2017-07-07 02:07:04', '2017-07-07 02:07:04')[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK(720801320270125080)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `albums`[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'albums'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `artists`[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'artists'[0m
+Started GET "/artists/new" for 127.0.0.1 at 2017-07-07 03:07:26 +0100
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (150.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.3ms) [cache miss]
+Completed 200 OK in 2335ms (Views: 2259.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/artists" for 127.0.0.1 at 2017-07-07 03:07:56 +0100
+Processing by ArtistsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"60BQgZxkUhfKv32n1zW/CR/yfoiN+sCd1loHR9xPCViNl/hF1F1tDsN1dI2Z+pWo3RLZ1+t1ZXivzWSFtE3d0w==", "artist"=>{"artistName"=>"Massacration", "country"=>"Brasil", "label"=>"Warner", "genre"=>"Humor Metal"}, "commit"=>"Save Artist"}
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO `artists` (`artistName`, `country`, `label`, `genre`, `created_at`, `updated_at`) VALUES ('Massacration', 'Brasil', 'Warner', 'Humor Metal', '2017-07-07 02:07:56', '2017-07-07 02:07:56')[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/artists/1
+Completed 302 Found in 21ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/artists/1" for 127.0.0.1 at 2017-07-07 03:07:56 +0100
+Processing by ArtistsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT  `artists`.* FROM `artists` WHERE `artists`.`id` = 1 LIMIT 1[0m
+  Rendering artists/show.html.erb within layouts/application
+  Rendered artists/show.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 118ms (Views: 64.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/artists" for 127.0.0.1 at 2017-07-07 03:11:16 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.6ms)[0m  [1m[34mSELECT `artists`.* FROM `artists` ORDER BY created_at DESC[0m
+  Rendered artists/index.html.erb within layouts/application (13.0ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.4ms) [cache miss]
+Completed 200 OK in 323ms (Views: 235.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 03:11:36 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.6ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (27.4ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 114ms (Views: 79.7ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2017-07-07 03:11:41 +0100
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ThShX5GMS5+nrFjCHz1pTEfxbliO4InZhUidCmV73pWQ0KnytufkOveARVLWz5uEjyIR/uJ/Gs03B1EmBuIlLQ==", "artist"=>{"artist_id"=>"1"}, "album"=>{"albumName"=>"teste", "albumYear"=>"1991"}, "commit"=>"Save Album"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Redirected to http://localhost:3000/albums
+Completed 302 Found in 83ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 03:11:41 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.5ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.2ms) [cache miss]
+Completed 200 OK in 79ms (Views: 62.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 03:11:44 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.3ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 64ms (Views: 60.1ms | ActiveRecord: 0.3ms)
+
+
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (52.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS `MusicLibrary_development`[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (31.8ms)[0m  [1m[35mDROP DATABASE IF EXISTS `MusicLibrary_test`[0m
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (121.2ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY) ENGINE=InnoDB[0m
+  [1m[35m (154.5ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK(720801320270125080, 0)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateArtists (20170517104328)
+  [1m[35m (129.9ms)[0m  [1m[35mCREATE TABLE `artists` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `artistName` varchar(255), `country` varchar(255), `label` varchar(255), `genre` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20170517104328')[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateAlbums (20170620200321)
+  [1m[35m (213.8ms)[0m  [1m[35mCREATE TABLE `albums` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `artistName` varchar(255), `albumName` varchar(255), `albumYear` varchar(255), `artist_id` bigint, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL,  INDEX `index_albums_on_artist_id`  (`artist_id`)) ENGINE=InnoDB[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20170620200321')[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2017-07-07 02:18:24', '2017-07-07 02:18:24')[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK(720801320270125080)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `albums`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'albums'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `artists`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'artists'[0m
+Started GET "/artists/new" for 127.0.0.1 at 2017-07-07 03:19:33 +0100
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (151.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.4ms) [cache miss]
+Completed 200 OK in 1979ms (Views: 1860.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/artists" for 127.0.0.1 at 2017-07-07 03:20:00 +0100
+Processing by ArtistsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qDbHITb6Jyf5299Ef58uM+GbdS72q1DEmJDSQOrcxZW7+VhTtTpX/Pt8aueWRE8W/vCIS47SFreLkeQF6slvIQ==", "artist"=>{"artistName"=>"Metallica", "country"=>"USA", "label"=>"Virgin", "genre"=>"Metal "}, "commit"=>"Save Artist"}
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `artists` (`artistName`, `country`, `label`, `genre`, `created_at`, `updated_at`) VALUES ('Metallica', 'USA', 'Virgin', 'Metal ', '2017-07-07 02:20:00', '2017-07-07 02:20:00')[0m
+  [1m[35m (235.9ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/artists/1
+Completed 302 Found in 263ms (ActiveRecord: 239.4ms)
+
+
+Started GET "/artists/1" for 127.0.0.1 at 2017-07-07 03:20:01 +0100
+Processing by ArtistsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArtist Load (0.7ms)[0m  [1m[34mSELECT  `artists`.* FROM `artists` WHERE `artists`.`id` = 1 LIMIT 1[0m
+  Rendering artists/show.html.erb within layouts/application
+  Rendered artists/show.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 272ms (Views: 217.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/artists/new" for 127.0.0.1 at 2017-07-07 03:20:13 +0100
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (7.3ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.5ms) [cache miss]
+Completed 200 OK in 863ms (Views: 593.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/artists" for 127.0.0.1 at 2017-07-07 03:20:32 +0100
+Processing by ArtistsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p1105Q3HL7VJj3Vm1tIKlukPVWy34GNyWrRxPwYDavq0kuuXjgdfbksowMU/CWuz9mSoCc+ZJQFJtUd6BhbATg==", "artist"=>{"artistName"=>"Sepultura", "country"=>"Brasil", "label"=>"Warner", "genre"=>"Metal "}, "commit"=>"Save Artist"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `artists` (`artistName`, `country`, `label`, `genre`, `created_at`, `updated_at`) VALUES ('Sepultura', 'Brasil', 'Warner', 'Metal ', '2017-07-07 02:20:32', '2017-07-07 02:20:32')[0m
+  [1m[35m (29.8ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/artists/2
+Completed 302 Found in 35ms (ActiveRecord: 30.4ms)
+
+
+Started GET "/artists/2" for 127.0.0.1 at 2017-07-07 03:20:32 +0100
+Processing by ArtistsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT  `artists`.* FROM `artists` WHERE `artists`.`id` = 2 LIMIT 1[0m
+  Rendering artists/show.html.erb within layouts/application
+  Rendered artists/show.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 89ms (Views: 61.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/artists" for 127.0.0.1 at 2017-07-07 03:20:58 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT `artists`.* FROM `artists` ORDER BY created_at DESC[0m
+  Rendered artists/index.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 91ms (Views: 63.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 03:21:01 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.7ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (24.9ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 137ms (Views: 91.0ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2017-07-07 03:21:09 +0100
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wP8fCwcnIS47e0mqViLU2UiSJ5tCWtUXvizZvJGXvB4eOxemIEyOi2tXVDqf0CYRgEFYPS7FRgMMYxWQ8g5Hpg==", "artist"=>{"artist_id"=>"2"}, "album"=>{"albumName"=>"Teste", "albumYear"=>"1995"}, "commit"=>"Save Album"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Redirected to http://localhost:3000/albums
+Completed 302 Found in 104ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 03:21:09 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (1.4ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 82ms (Views: 60.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/artists" for 127.0.0.1 at 2017-07-07 03:31:50 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (1.0ms)[0m  [1m[34mSELECT `artists`.* FROM `artists` ORDER BY created_at DESC[0m
+  Rendered artists/index.html.erb within layouts/application (18.0ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (2.2ms) [cache miss]
+Completed 200 OK in 679ms (Views: 613.0ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 03:31:53 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.5ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (13.5ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 484ms (Views: 330.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/albums/1/edit" for 127.0.0.1 at 2017-07-07 03:31:58 +0100
+Processing by AlbumsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT  `albums`.* FROM `albums` WHERE `albums`.`id` = 1 LIMIT 1[0m
+Completed 406 Not Acceptable in 117ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionController::UnknownFormat (AlbumsController#edit is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.1.1) lib/action_controller/metal/implicit_render.rb:53:in `default_render'
+actionpack (5.1.1) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.1) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.1) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.1) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.1) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.1) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.1) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.1) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.1) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.1) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.1) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.1) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.1) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.1) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.1) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.1) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.1) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.1) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.1) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.1) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.1) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.1) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.1) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.1) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 03:32:10 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 68ms (Views: 62.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/artists" for 127.0.0.1 at 2017-07-07 03:32:11 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT `artists`.* FROM `artists` ORDER BY created_at DESC[0m
+  Rendered artists/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.1ms) [cache miss]
+Completed 200 OK in 74ms (Views: 71.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/artists/2/edit" for 127.0.0.1 at 2017-07-07 03:32:14 +0100
+Processing by ArtistsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArtist Load (0.9ms)[0m  [1m[34mSELECT  `artists`.* FROM `artists` WHERE `artists`.`id` = 2 LIMIT 1[0m
+  Rendering artists/edit.html.erb within layouts/application
+  Rendered artists/edit.html.erb within layouts/application (7.6ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 137ms (Views: 64.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/artists" for 127.0.0.1 at 2017-07-07 03:32:17 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.5ms)[0m  [1m[34mSELECT `artists`.* FROM `artists` ORDER BY created_at DESC[0m
+  Rendered artists/index.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 66ms (Views: 62.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/artists/2/edit" for 127.0.0.1 at 2017-07-07 03:32:19 +0100
+Processing by ArtistsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArtist Load (0.6ms)[0m  [1m[34mSELECT  `artists`.* FROM `artists` WHERE `artists`.`id` = 2 LIMIT 1[0m
+  Rendering artists/edit.html.erb within layouts/application
+  Rendered artists/edit.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 86ms (Views: 81.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/artists/2/edit" for 127.0.0.1 at 2017-07-07 03:32:20 +0100
+Processing by ArtistsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT  `artists`.* FROM `artists` WHERE `artists`.`id` = 2 LIMIT 1[0m
+  Rendering artists/edit.html.erb within layouts/application
+  Rendered artists/edit.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 80ms (Views: 76.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 03:32:23 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 64ms (Views: 59.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums/1/edit" for 127.0.0.1 at 2017-07-07 03:32:25 +0100
+Processing by AlbumsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT  `albums`.* FROM `albums` WHERE `albums`.`id` = 1 LIMIT 1[0m
+Completed 406 Not Acceptable in 83ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionController::UnknownFormat (AlbumsController#edit is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.1.1) lib/action_controller/metal/implicit_render.rb:53:in `default_render'
+actionpack (5.1.1) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.1) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.1) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.1) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.1) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.1) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.1) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.1) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.1) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.1) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.1) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.1) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.1) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.1) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.1) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.1) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.1) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.1) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.1) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.1) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.1) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.1) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.1) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.1) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 03:32:37 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 59ms (Views: 56.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/artists/2/edit" for 127.0.0.1 at 2017-07-07 03:32:37 +0100
+Processing by ArtistsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArtist Load (0.5ms)[0m  [1m[34mSELECT  `artists`.* FROM `artists` WHERE `artists`.`id` = 2 LIMIT 1[0m
+  Rendering artists/edit.html.erb within layouts/application
+  Rendered artists/edit.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 94ms (Views: 88.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/artists/2/edit" for 127.0.0.1 at 2017-07-07 03:32:39 +0100
+Processing by ArtistsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT  `artists`.* FROM `artists` WHERE `artists`.`id` = 2 LIMIT 1[0m
+  Rendering artists/edit.html.erb within layouts/application
+  Rendered artists/edit.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 77ms (Views: 73.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 03:32:42 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.7ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 140ms (Views: 100.3ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2017-07-07 03:33:01 +0100
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3J0XIs3gkR//hE7RiBi/c/smG2eivVeMo5gGnvEfYswCWR+P6os+uq+oU0FB6k27M/Vkwc4ixJgR18qykoaZdA==", "artist"=>{"artist_id"=>"2"}, "album"=>{"albumName"=>"teste", "albumYear"=>"1995"}, "commit"=>"Save Album"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Redirected to http://localhost:3000/albums
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 03:33:01 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 133ms (Views: 64.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 03:37:36 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (40.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.3ms) [cache miss]
+Completed 200 OK in 245ms (Views: 218.3ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2017-07-07 03:37:41 +0100
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"66Jl76DwAEPG32EvUOSa1UYuA88pbJOgFQuSIiJfhXA1Zm1Ch5uv5pbzfL+ZFmgdjv18aUXzALSnRF4OQcZ+yA==", "artist"=>{"artist_id"=>"1"}, "album"=>{"albumName"=>"teste", "albumYear"=>"1992"}, "commit"=>"Save Album"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Redirected to http://localhost:3000/albums
+Completed 302 Found in 108ms (ActiveRecord: 45.3ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 03:37:41 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 100ms (Views: 81.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 03:39:21 +0100
+Started GET "/artists/new" for 127.0.0.1 at 2017-07-07 03:39:21 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+Processing by ArtistsController#new as HTML
+  [1m[36mArtist Load (0.5ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (48.1ms)
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_navigation.html.erb (0.1ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 267ms (Views: 237.9ms | ActiveRecord: 2.4ms)
+
+
+  Rendered layouts/_messages.html.erb (0.2ms) [cache miss]
+Completed 200 OK in 178ms (Views: 160.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2017-07-07 03:39:30 +0100
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"l8gBKLxU+qQUkSYcQD5zIG+OtDpTiTUkGHqNUlcnhtxJDAmFmz9VAUS9O4yJzIHop13LnD8WpjCqNUF+NL59ZA==", "artist"=>{"artist_id"=>"1"}, "album"=>{"albumName"=>"nanasb", "albumYear"=>"1992"}, "commit"=>"Save Album"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Redirected to http://localhost:3000/albums
+Completed 302 Found in 54ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 03:39:30 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_navigation.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 94ms (Views: 68.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 03:43:34 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (48.8ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.7ms) [cache miss]
+Completed 200 OK in 345ms (Views: 319.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2017-07-07 03:43:42 +0100
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GvoByZDtw1/IasSCTz1tA71JgmWVIpeYSJPgfM76zyt8LakN2NT8RsGgzagB8keif6klOvOtMn0xBIO+pvgboA==", "artist"=>{"artist_id"=>"2"}, "album"=>{"albumName"=>"Sepultur", "albumYear"=>"1995"}, "commit"=>"Save Album"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `albums` (`albumName`, `albumYear`, `created_at`, `updated_at`) VALUES ('Sepultur', '1995', '2017-07-07 02:43:42', '2017-07-07 02:43:42')[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/albums/2
+Completed 302 Found in 18ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/albums/2" for 127.0.0.1 at 2017-07-07 03:43:42 +0100
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `albumName' for nil:NilClass):
+    2: 
+    3: <div class="panel-heading" >
+    4: 
+    5:   <h1><strong><%= @album.albumName %></strong></h1>
+    6: </div>
+    7: <div class="panel-body">
+    8: 
+  
+app/views/albums/show.html.erb:5:in `_app_views_albums_show_html_erb__3437342618460371308_70261187148360'
+Started GET "/albums/2" for 127.0.0.1 at 2017-07-07 03:45:36 +0100
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (5.7ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `albumName' for nil:NilClass):
+    2: 
+    3: <div class="panel-heading" >
+    4: 
+    5:   <h1><strong><%= @album.albumName %></strong></h1>
+    6: </div>
+    7: <div class="panel-body">
+    8: 
+  
+app/views/albums/show.html.erb:5:in `_app_views_albums_show_html_erb__3437342618460371308_70261149014960'
+Started GET "/albums/2" for 127.0.0.1 at 2017-07-07 03:45:45 +0100
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `albumName' for nil:NilClass):
+    2: 
+    3: <div class="panel-heading" >
+    4: 
+    5:   <h1><strong><%= @album.albumName %></strong></h1>
+    6: </div>
+    7: <div class="panel-body">
+    8: 
+  
+app/views/albums/show.html.erb:5:in `_app_views_albums_show_html_erb__3437342618460371308_70261154912820'
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 03:46:01 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.3ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 168ms (Views: 165.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 03:46:04 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 106ms (Views: 61.5ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/albums/2" for 127.0.0.1 at 2017-07-07 03:46:08 +0100
+Processing by AlbumsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"pNqqcolVJKCe0dj/5amDebUoUwxOvQLdvfe4nufeRsPCDQK2wWwbuZcb0dWrZqnYd8j0UygypzjEYNtcj9ySSA==", "id"=>"2"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `destroy' for nil:NilClass):
+  
+app/controllers/albums_controller.rb:33:in `destroy'
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 03:47:00 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.5ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (18.5ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 169ms (Views: 140.9ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 03:47:01 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.5ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (3.1ms)
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 03:47:01 +0100
+Started GET "/artists/2/edit" for 127.0.0.1 at 2017-07-07 03:47:01 +0100
+Processing by AlbumsController#new as HTML
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 81ms (Views: 78.6ms | ActiveRecord: 0.5ms)
+
+
+  Rendering albums/new.html.erb within layouts/application
+Processing by ArtistsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArtist Load (1.2ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (48.5ms)
+  [1m[36mArtist Load (2.7ms)[0m  [1m[34mSELECT  `artists`.* FROM `artists` WHERE `artists`.`id` = 2 LIMIT 1[0m
+  Rendering artists/edit.html.erb within layouts/application
+  Rendered artists/edit.html.erb within layouts/application (11.2ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 192ms (Views: 170.8ms | ActiveRecord: 1.9ms)
+
+
+  Rendered layouts/_navigation.html.erb (0.1ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.1ms) [cache miss]
+Completed 200 OK in 280ms (Views: 192.2ms | ActiveRecord: 18.6ms)
+
+
+Started DELETE "/albums/2" for 127.0.0.1 at 2017-07-07 03:47:05 +0100
+Processing by AlbumsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"hob/7cWypEBvBkJsztCQoP0GBk+8tNAKP13hjhVbSt7gUVcpjYubWWbMS0aAH7oBP+ahENo7de9GyoJMfVmeVQ==", "id"=>"2"}
+  [1m[36mAlbum Load (0.5ms)[0m  [1m[34mSELECT  `albums`.* FROM `albums` WHERE `albums`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[31mDELETE FROM `albums` WHERE `albums`.`id` = 2[0m
+  [1m[35m (24.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 30ms (ActiveRecord: 25.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-07 03:47:05 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 66ms (Views: 61.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 03:47:08 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 65ms (Views: 62.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/artists" for 127.0.0.1 at 2017-07-07 03:47:09 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT `artists`.* FROM `artists` ORDER BY created_at DESC[0m
+  Rendered artists/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 95ms (Views: 66.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2017-07-07 03:47:13 +0100
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mArtist Load (0.5ms)[0m  [1m[34mSELECT `artists`.* FROM `artists`[0m
+  Rendered albums/new.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 71ms (Views: 61.6ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2017-07-07 03:47:24 +0100
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FA7WTv1rGWoTqIbopbpvzya69JU2Sgx1B+BtIqj3+8HKyt7j2gC2z0OEm3hsSJ0H7mmLM1rVn2G1r6EOy24AeQ==", "artist"=>{"artist_id"=>"2"}, "album"=>{"albumName"=>"Teste", "albumYear"=>"1991"}, "commit"=>"Save Album"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `albums` (`albumName`, `albumYear`, `created_at`, `updated_at`) VALUES ('Teste', '1991', '2017-07-07 02:47:24', '2017-07-07 02:47:24')[0m
+  [1m[35m (27.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/albums/3
+Completed 302 Found in 32ms (ActiveRecord: 27.7ms)
+
+
+Started GET "/albums/3" for 127.0.0.1 at 2017-07-07 03:47:24 +0100
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT  `albums`.* FROM `albums` WHERE `albums`.`id` = 3 LIMIT 1[0m
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 99ms (Views: 67.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/artists" for 127.0.0.1 at 2017-07-07 03:47:30 +0100
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT `artists`.* FROM `artists` ORDER BY created_at DESC[0m
+  Rendered artists/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 86ms (Views: 60.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2017-07-07 03:47:32 +0100
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT `albums`.* FROM `albums` ORDER BY created_at DESC[0m
+  Rendered albums/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 138ms (Views: 68.8ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/albums/3" for 127.0.0.1 at 2017-07-07 03:47:36 +0100
+Processing by AlbumsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DQfUzdUs+e6zuqWK48EggTOMxB1I5SnI6kPYPqpmPxNr0HwJnRXG97pwrKCtDgog8WxjQi5qjC2T1Lv8wmTrmA==", "id"=>"3"}
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT  `albums`.* FROM `albums` WHERE `albums`.`id` = 3 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM `albums` WHERE `albums`.`id` = 3[0m
+  [1m[35m (152.9ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 157ms (ActiveRecord: 153.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-07 03:47:36 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 60ms (Views: 57.2ms | ActiveRecord: 0.0ms)
+
+
