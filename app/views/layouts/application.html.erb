@@ -23,17 +23,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.php">Music Library</a>
+              <p class="navbar-brand"><%= link_to 'Music Library', index_path %></p>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href='#'>Home </a></li>
                 <li><%= link_to 'Add Artist', new_artist_path %></li>
                 <li><%= link_to 'Add Album', new_album_path %></li>
-                <li><a href='#'>Add Songs</a></li>
                 <li><%= link_to 'List Artists', controller: 'artists' %></li>             
                 <li><%= link_to 'List Albums', controller: 'albums' %></li>             
-                <li><a href="#">About</a></li>
+                <li><%= link_to 'About', about_path %></li>             
               </ul>
     
      
@@ -75,7 +73,7 @@
           <footer class="footer">
             
             <div class="container">
-              <p class="text-muted">Criado por: <a href="#">Danilo Soares Cardoso </a> ® 2017</p>
+              <p class="text-muted">Criado por: <a href="http://danilosoarescardoso.github.io/">Danilo Soares Cardoso </a> ® 2017</p>
             </div>
           </footer>
         </div>

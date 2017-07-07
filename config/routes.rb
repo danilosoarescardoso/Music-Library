@@ -7,7 +7,10 @@ Rails.application.routes.draw do
 
   get 'startup/teste'
 
-#  get '/index', to: 'layouts/application.html.erb'
+get 'index', to: 'startup#index'
+
+get 'about', to: 'startup#about'
+
 
 resources :artists
 root 'artists#index'
